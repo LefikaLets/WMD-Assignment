@@ -1,0 +1,234 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #6FC1C7;
+}
+
+main{
+    width: 100%;
+    height: 579px;
+    background-color: #373434;
+    display: flex;
+}
+
+nav{
+    width: 280px;
+    height: inherit;
+    background-image:  url(Images/Black\ Widow\ Panel\ 2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.menu{
+    width: inherit;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.menu a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: white;
+}
+
+.navstomach{
+    width: inherit;
+    height: 459px;
+    
+}
+
+.navstomach a {
+    padding: 10px;
+    display: block;
+    color: white;
+    margin-left: 15px;
+}
+
+.navfeet{
+    width: inherit;
+    height: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.navfeet a{
+    text-decoration: none; 
+    color: black;
+}
+
+section{
+    width: 1115px;
+    height: inherit;
+    background-image: url(Images/Marvel.jpg);
+    background-size: cover;
+    background-color: #df1616;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+ 
+}
+
+ .pickoftheweek{
+    width: 900px;
+    height: 35px;
+    background-color: rgba(165, 158, 158, 0.795);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center ;   
+}
+
+.pickoftheweek h3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pick{
+    width: 900px;
+    height: 450px;
+    background-color: rgba(165, 158, 158, 0.795);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    padding-right: 30px;
+}
+
+.picktext {
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.picktext h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.picktext h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(40, 42, 43);
+    padding: 3px; 
+}
+
+.picktext p {
+    font: 1em sans-serif;
+    color: black;
+}
+
+.pick .pickimage{
+    margin-top: 25px;
+    margin-left: 35px;
+    box-shadow: 0 0 15px rgba(22, 22, 22, 0.671);   
+}
+
+.pickimage2{
+    margin-top: 25px;
+    margin-left: 35px; 
+    box-shadow: 0 0 15px rgba(15, 15, 15, 0.61);   
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #6FC1C7;
+    text-align: center;
+}
+
+ .logo{
+    padding-left: 10px;
+    
+}
+
+.feedform{ 
+    margin-top: 30px;
+    margin-left: 230px;
+    width: 400px;
+    height: 300px;
+    background-color: #3734 ; 
+    box-shadow: 0 0 15px rgba(14, 13, 13, 0.527); 
+    opacity: 0.8;   
+     
+    } 
+
+.feedform form{ 
+    width: 150px; 
+    text-align: center;  
+    display: inline-block;
+    padding-top: 35px;
+    padding-left: 50px;
+    
+} 
+
+form h1{ 
+    padding-left: 30px; 
+} 
+
+.user{
+    width: 150px;
+    height: 35px;
+}
+
+.textarea{
+    width: 280px;
+    height: 35px;
+    border-radius: 6px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+form .email{ 
+    position: relative; 
+    border-radius: 6px;
+} 
+
+.button{
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    background-color:#6FC1C7 ;
+    border-radius: 4px;
+    font: 1em sans-serif;
+    padding: 6px;
+}
+
+.pick2{
+    width: 900px;
+    height: 450px;
+    background-color: rgba(165, 158, 158, 0.795);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
