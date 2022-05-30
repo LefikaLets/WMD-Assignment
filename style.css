@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -25,6 +25,7 @@ header{
     width: 100%;
     height: 60px;
     background-color: #6FC1C7;
+    background: linear-gradient(180deg, #000000c9, #6FC1C7 );
 }
 
 main{
@@ -32,11 +33,14 @@ main{
     height: 579px;
     background-color: #373434;
     display: flex;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav{
     width: 280px;
-    height: inherit;
+    height: 579px;
     background-image:  url(Images/Black\ Widow\ Panel\ 2.jpg) ;
     background-size: cover;
     background-position: center;
@@ -46,7 +50,7 @@ nav{
 }
 
 .menu{
-    width: inherit;
+    width: 280px;
     height: 60px;
     text-align: center;
     padding-top: 20px;
@@ -54,14 +58,15 @@ nav{
 }
 
 .menu a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
     color: white;
+    text-decoration: none;
 }
 
 .navstomach{
-    width: inherit;
+    width: 280px;
     height: 459px;
+    text-align: center;
     
 }
 
@@ -70,13 +75,13 @@ nav{
     display: block;
     color: white;
     margin-left: 15px;
+    text-decoration: none;
 }
 
 .navfeet{
-    width: inherit;
+    width: 280px;
     height: 60px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     font-weight: bold;
     
@@ -89,7 +94,7 @@ nav{
 
 section{
     width: 1115px;
-    height: inherit;
+    height: 579px;
     background-image: url(Images/Marvel.jpg);
     background-size: cover;
     background-color: #df1616;
@@ -111,7 +116,8 @@ section{
 }
 
 .pickoftheweek h3{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    color: rgb(41, 40, 40);
 }
 
 .pick{
@@ -123,11 +129,25 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
-    padding-right: 30px;
+    overflow: hidden;
+}
+
+.pickimage img{
+    width: 300px; 
+    height: 400px;
+    box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671); 
+    margin-left: 15px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.pickimage:hover img{
+transform: scale(1.1);
+transition: all 0.5s ease-in-out;
 }
 
 .picktext {
-    margin-left: 25px;
+    margin-left: 35px;
     margin-top: 35px;
 }
 
@@ -148,22 +168,31 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .pick .pickimage{
+    width: 300px;
+    height: 400px;
     margin-top: 25px;
-    margin-left: 35px;
-    box-shadow: 0 0 15px rgba(22, 22, 22, 0.671);   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 .pickimage2{
+    width: 350px;
+    height: 400px;
     margin-top: 25px;
     margin-left: 35px; 
-    box-shadow: 0 0 15px rgba(15, 15, 15, 0.61);   
+    box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671);     
 }
 
 footer{
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #6FC1C7;
     text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(360deg, #000000b9, #6FC1C7 );
 }
 
  .logo{
@@ -176,8 +205,8 @@ footer{
     margin-left: 230px;
     width: 400px;
     height: 300px;
-    background-color: #3734 ; 
-    box-shadow: 0 0 15px rgba(14, 13, 13, 0.527); 
+    background-color: rgba(58, 219, 58, 0.267) ; 
+    box-shadow: 8px 4px 15px 4px rgba(14, 13, 13, 0.527); 
     opacity: 0.8;   
      
     } 
@@ -192,12 +221,13 @@ footer{
 } 
 
 form h1{ 
-    padding-left: 30px; 
+    padding-left: 20px; 
 } 
 
 .user{
     width: 150px;
     height: 35px;
+    
 }
 
 .textarea{
@@ -206,6 +236,7 @@ form h1{
     border-radius: 6px;
     padding-top: 15px;
     margin-top: 15px;
+    background-color:#d0e8e9 ;
 }
 
 form .email{ 
@@ -222,13 +253,128 @@ form .email{
     padding: 6px;
 }
 
+.pickimage li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.pickimage li a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.5s ease-in-out;
+    display:inline-block;
+    text-decoration: none;
+    border: 1px solid #6FC1C7;
+    border-radius: 15px;
+    padding: 6px 7px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+}
+
+.pickimage li a:hover {
+    border: 1px solid #6FC1C7;
+    background: #6FC1C7;
+    transition: 1s;
+}
+
 .pick2{
     width: 900px;
     height: 450px;
-    background-color: rgba(165, 158, 158, 0.795);
+    background-color:  rgba(165, 158, 158, 0.795);
     position: absolute;
     top: 57%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    
 }
+
+.arrownext{
+    position: absolute;
+    font-size: 50px;
+    color: #d0e8e9;
+    top: 285px;
+    right: 100px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.arrowprev{
+    position: absolute;
+    font-size: 50px;
+    color: #d0e8e9;
+    top: 285px;
+    right: 930px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    background-color: #d0e8e948;
+    padding: 8px;
+    border-radius: 40%;
+    color: #373434;
+}
+
+.overlay{
+    position: absolute;
+    width: 300px; 
+    height: 400px;
+    left: 0px;
+    top: 100%;
+    background-color: #37343475;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d0e8e9;
+    margin-left: 15px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.pick:hover .overlay{
+    top: 5%;
+}
+
+/*Swiper----------------------*/
+
+.swiper {
+    width: 900px;
+    height: 450px;
+    background-color: rgba(165, 158, 158, 0.795);
+    position: absolute;
+    top: 57%;
+    left: 41.4%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    padding-left: 100px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    width: 255px; 
+    height: 350px;
+    box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671); 
+    margin-left: 3px;
+    border-radius: 4px;
+  }
