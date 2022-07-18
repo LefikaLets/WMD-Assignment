@@ -9,29 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
+
+    <div class="container">
     <header>
         <!--logo-------------------------------------------------------->
         <div class="logo" >
 
           <a href="index.html" >  
-              <img src="premiumlogo/onlinelogomaker-052522-1416-6021.png" alt="websitelogo" width="210px" height="50px">
+              <img src="premiumlogowhite/white.png" alt="websitelogo" width="210px" height="50px">
           </a>
 
         </div>
-    </header>
 
-    <main>
-
-        
         <nav>
             <!--Menu-------------------------------------------------------->
-            <div class="menu">
-                <a href="" >Menu</a>
-            </div>
-            <div class="navstomach">
+            
                 <a href="index.html">Home</a>
                 <a href="movie_page.html">All Movies</a>
                 <a href="categories.html">By Genre</a>
@@ -39,67 +36,216 @@
                 <a href="upcoming.html">Upcoming</a>
                 <a href="contacts.html">Contact Us</a>
                 <a href="aboutus.html">About Us</a>
-            </div>
-            <div class="navfeet">
-                <a href="feedback.html">Let Us Know</a>
-            </div>
+            
         </nav>
-        
+
+    </header>
+
+    <main>
+  
         <!---------------------Pick of The Week---------------------------------------------->
         <section>
             <div class="pickoftheweek" >
-                <h3>Pick Of The Week</h3>
+                <h3>Home</h3>
             </div>
+
+            <div class="info-panel"> <h2>Trending This Week</h2></div>
 
             <div class="pick">
 
-                
             <!-----------------Pick Section--------------------------------->
-             <div class="pickimage">
-                <a href="" class="overlay">
-                    <strong class="overlaytext">Learn More...</strong>
-                </a>
-                
-                 <a href="https://www.imdb.com/title/tt0848228/"> <img  src="Images/Avengers 1.jpg" alt="Avengers 1 poster"  ></a>
-             </div> 
-             
-             <div class="picktext">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
 
-                 <h2>AVENGERS</h2>
+                    <div class="swiper-slide">
 
-                 <h4>
-                     Genre:<p>Action/Sci-fi</p>
-                </h4>
+         <!-------------------------------------Beginning of Swiper  Slide---------------------------------------------------------->
 
-                 <h4>
-                     Year:<p>2012</p>
-                 </h4>
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Avengers 1.jpg" alt="" ></a>
+                        </div>
 
-                 <h4>
-                     Rated: <p>PG-13</p>
-                 </h4>
-                 <h4>
-                     Director: <p>Joss Whedon</p>   
-                 </h4>
+                        <div class="swiper-slide-text"> 
+                         <strong >Avengers</strong>
+                         <h5>Starring: Robert Downey Jr</h5>
+                         <p>Playing 7 August 2022</p>
+                        </div>
 
-                 <h4>
-                     Starring: <p>Robert Downey Jr.</p>
-                    </h4>
-                 <h4>
-                     Description: <p> Earth's mightiest heroes must come together and learn to fight <br> as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
-                    </h4>
-                 
+                     </div>
 
-             </div>
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="BabySitterKillerQueen.html"><img src="Images/Babysitter Killer Queen.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Babysitter Killer Queen</strong>
+                         <h5>Starring: Jenna Ortega</h5>
+                         <p>Playing 24 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/a quiet place 2.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >A Quiet Place</strong>
+                         <h5>Starring: Emily Blunt</h5>
+                         <p>Playing 16 August 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/honor-society.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Honor Society</strong>
+                         <h5>Starring: Gaten Matarazzo</h5>
+                         <p>Playing 29 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Spiderman 3.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Spiderman: No Way Home</strong>
+                         <h5>Starring: Tom Holland</h5>
+                         <p>Playing 20 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Black Widow.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Black Widow</strong>
+                         <h5>Starring: Scarlett Johannson</h5>
+                         <p>Out Everywhere now</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Boo Bitch.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Boo Bitch</strong>
+                         <h5>Starring: Lana Condor</h5>
+                         <p>Out Everywhere now</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/The Gray Man.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >the Gray Man</strong>
+                         <h5>Starring: Chris Evans</h5>
+                         <p>Out 22 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Avatar.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Avatar: The way Of the Water</strong>
+                         <h5>Starring: Zoe Saldana</h5>
+                         <p>Out 16 December 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="avengers1.html"><img src="Images/Barbie.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Barbie</strong>
+                         <h5>Starring: Margot Robbie</h5>
+                         <p>Out 2023</p>
+                        </div>
+
+                     </div>
+                     
+       <!---------------------------------------------End of Swiper Slide---------------------------------------------------------->
+ 
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
 
             </div>
-        </section>
+ 
+        </section> 
+        
     </main>
+
+       <a class="storybtn" href="feedback.html">
+           Give Us Feedback
+       </a>
 
     <footer>
         <p>All Rights Reserved</p>
     </footer>
 
+    
+</div>
+
+ <!---------------------JavaScript---------------------------------------------->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 5,
+     spaceBetween: 5,
+     rewind: true,
+
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+
+   });
+ </script>
 </body>
 
 </html>

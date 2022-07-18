@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: #0a0a0a4f;
+    background-image: url(Images/Star-Wars-Tutorial.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -21,96 +22,100 @@ body {
     
 }
 
+.container{
+    background-color: #0a0a0a4f;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
 header{
     width: 100%;
     height: 60px;
-    background-color: #6FC1C7;
-    background: linear-gradient(180deg, #000000c9, #6FC1C7 );
+    display:flex;
 }
 
 main{
     width: 100%;
-    height: 579px;
-    background-color: #373434;
-    display: flex;
+    height: 560px;
+    display: block;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
+    display:flex;
+}
+
+.storybtn{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(255, 166, 0, 0.425);
+    border-radius: 30px;
+    padding: 3px 340px;
+    margin-left: 310px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+}
+
+.storybtn:hover {
+    border: 1px solid rgba(255, 166, 0, 0.425);
+    background: rgba(255, 166, 0, 0.425);
+    transition: 1s;
 }
 
 nav{
-    width: 280px;
-    height: 579px;
-    background-image:  url(Images/Black\ Widow\ Panel\ 2.jpg) ;
+    width: calc(900px);
+    height: inherit;
     background-size: cover;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
-
+    margin-top: 20px;
+    margin-left: 70px;
 }
 
-.menu{
-    width: 280px;
-    height: 60px;
-    text-align: center;
-    padding-top: 20px;
-    
-}
-
-.menu a{
-    font-size: 28px;
-    color: white;
-    text-decoration: none;
-}
-
-.navstomach{
-    width: 280px;
-    height: 459px;
-    text-align: center;
-    
-}
-
-.navstomach a {
-    padding: 10px;
-    display: block;
-    color: white;
+nav a {
+    padding: 18px;
+    color: rgba(250, 246, 246, 0.966);
     margin-left: 15px;
     text-decoration: none;
+    font-weight: 600;
 }
 
-.navfeet{
-    width: 280px;
-    height: 60px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    
+.info-panel{
+    width: 80%;
+    height: 30px;
+    background-color: #0a0a0a4f;
+    margin-top: 30px;
+    padding-left: 85px;
+    border-radius: 20px;
+    margin-left: 30px;
 }
 
-.navfeet a{
-    text-decoration: none; 
-    color: black;
+.info-panel h2{
+    color: rgba(255, 255, 255, 0.801);
 }
 
 section{
-    width: 1115px;
-    height: 579px;
-    background-image: url(Images/Marvel.jpg);
+    width: 100%;
+    height: 560px;
     background-size: cover;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
- 
+    display: flex;
 }
 
  .pickoftheweek{
-    width: 900px;
+    width: 100%;
     height: 35px;
-    background-color: rgba(165, 158, 158, 0.795);
     position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center ; 
     background-position: center;
     background-repeat: no-repeat;  
@@ -118,84 +123,55 @@ section{
 
 .pickoftheweek h3{
     margin-top: 5px;
-    color: rgb(41, 40, 40);
+    color: rgba(255, 255, 255, 0.801);
 }
 
 .pick{
-    width: 900px;
+    width: 100%;
     height: 450px;
-    background-color: rgba(165, 158, 158, 0.795);
     position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 8%;
     display: flex;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.pickimage img{
-    width: 300px; 
-    height: 400px;
-    box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671); 
-    margin-left: 15px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.pickimage:hover img{
-transform: scale(1.1);
-transition: all 0.5s ease-in-out;
+    padding-top: 100px;
+    color: white;
 }
 
 .picktext {
     margin-left: 35px;
     margin-top: 35px;
+    color: white;
+    font-weight: 600;
 }
 
 .picktext h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
 }
 
 .picktext h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(40, 42, 43);
+    color: #d0e8e9;
     padding: 3px; 
+}
+
+.picktext h3{
+    color:#d0e8e9;
 }
 
 .picktext p {
     font: 1em sans-serif;
-    color: black;
-}
-
-.pick .pickimage{
-    width: 300px;
-    height: 400px;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    transition: all 0.5s ease-in-out;
-    
-}
-
-.pickimage2{
-    width: 350px;
-    height: 400px;
-    margin-top: 25px;
-    margin-left: 35px; 
-    box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671);     
+    color: white;
 }
 
 footer{
     width: 100%;
-    height: 50px;
-    background-color: #6FC1C7;
+    height: 20px;
     text-align: center;
     padding-top: 10px;
-    background: linear-gradient(360deg, #000000b9, #6FC1C7 );
+    color: #d0e8e9;
 }
 
  .logo{
@@ -219,8 +195,7 @@ footer{
     text-align: center;  
     display: inline-block;
     padding-top: 35px;
-    padding-left: 50px;
-    
+    padding-left: 50px; 
 } 
 
 form h1{ 
@@ -229,8 +204,7 @@ form h1{
 
 .user{
     width: 150px;
-    height: 35px;
-    
+    height: 35px; 
 }
 
 .textarea{
@@ -256,15 +230,22 @@ form .email{
     padding: 6px;
 }
 
-.pickimage li {
-    list-style: none;
-    padding: 10px;
-    margin-left: 35px;
+.pickcategory{
+padding: 50px;
+display: flex;
+align-items: center;
+padding-left: 200px;
 }
 
-.pickimage li a{
+.pickcategory li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 35px; 
+}
+
+.pickcategory li a{
+    color: rgba(255, 255, 255, 0.801);
     text-decoration: none;
-    color:black;
     transition: all 0.5s ease-in-out;
     display:inline-block;
     text-decoration: none;
@@ -276,103 +257,26 @@ form .email{
     position: relative;
 }
 
-.pickimage li a:hover {
+.pickcategory li a:hover {
     border: 1px solid #6FC1C7;
     background: #6FC1C7;
     transition: 1s;
 }
 
-.pick2{
-    width: 900px;
-    height: 450px;
-    background-color:  rgba(165, 158, 158, 0.795);
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    
-}
-
-.arrownext{
-    position: absolute;
-    font-size: 50px;
-    color: #d0e8e9;
-    top: 285px;
-    right: 100px;
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.arrowprev{
-    position: absolute;
-    font-size: 50px;
-    color: #d0e8e9;
-    top: 285px;
-    right: 930px;
-    opacity: 0.7;
-    cursor: pointer;
-}
-
 .swiper-button-next,
 .swiper-button-prev{
-    background-color: #d0e8e948;
     padding: 8px;
     border-radius: 40%;
     color: #373434;
 }
 
-.overlay{
-    position: absolute;
-    width: 300px; 
-    height: 400px;
-    left: 0px;
-    top: 100%;
-    background-color: #37343475;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #d0e8e9;
-    margin-left: 15px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.pick:hover .overlay{
-    top: 5%;
-}
-
-.swiper-slide .overlay{
-    position: absolute;
-    width: 255px; 
-    height: 350px;
-    left: 2.5px;
-    top: 100%;
-    background-color: #37343475;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #d0e8e9;
-    margin-left: 15px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.swiper-slide:hover .overlay{
-    top: 11%;
-}
-
 /*Swiper----------------------*/
 
 .swiper {
-    width: 900px;
-    height: 450px;
-    background-color: rgba(165, 158, 158, 0.795);
-    top: 57%;
-    left: 41.4%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    padding-left: 100px;
+    width: 100%;
+    height: 330px;
+    display: flex; 
+    
   }
 
   .swiper-slide {
@@ -382,7 +286,7 @@ form .email{
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: block;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -391,330 +295,148 @@ form .email{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    
   }
 
   .swiper-slide img {
-    width: 255px; 
-    height: 350px;
+    width: 165px; 
+    height: 250px;
     box-shadow: 6px 4px 8px 6px rgba(22, 22, 22, 0.671); 
-    margin-left: 3px;
     border-radius: 4px;
   }
 
-/*Media Queries************************************************************/
-@media(max-width:1080px){
-
-    .pick{
-        width: 450px;
-        display:block;
-        padding-right: 25px;
+  .swiper-slide:hover img{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
     }
 
-    .pickoftheweek{
-        width: 250px;
-        display:block;
-        padding-right: 25px;
-        border-radius: 40px;
-    }
+    strong{
+      color: #d0e8e9;
+      font-size: 13px;
+      font-weight: 400;
+  }
 
-    .swiper {
-        width: 475px;
-        left: 33.3%;
-        
-        
-    }
+  .swiper-slide-text{
+    background-color: #37343459;
+    width: 200px;
+    margin-left: 35px;
+    border-radius: 8px;
 
-    .swiper-slide img {
-        width: 155px; 
-        height: 230px;
-        margin-left: 50px;
-        
-    }    
-    .swiper-slide {
-        padding-left: 25px;
-        padding-right: 25px;
-        
-    }
+  }
 
-    /*Genre Lists--------------------------------------------------*/
+  .swiper-slide-text h5{
+      color: white;
+      font-weight: 200;
+      
+  }
 
-    .pickimage li {
-        list-style: none;
-        padding: 2px;
-        margin-bottom: 20px;
+  .swiper-slide-text p{
+      color: white;
+      font-weight: 300;
+      font-size: small;
+  }
 
-    }
+  /*-------------individual movie page-------------------------------------------*/
 
-    .pickimage{
-        display: block;
-        flex-direction: column; 
-        padding-left: 55px;
-    }
-    
-    .pickimage li a{
-        text-decoration: none;
-        color:black;
-        transition: all 0.5s ease-in-out;
-        text-decoration: none;
-        border: 1px solid #6FC1C7;
-        border-radius: 15px;
-        padding: 4px 7px;
-        font-size: 15px;
-        background: transparent;
-        position: relative;
-    }
-    
-    .pickimage li a:hover {
-        border: 1px solid #6FC1C7;
-        background: #6FC1C7;
-        transition: 1s;
-    }
+  .each-1{
+      padding: 90px;
+  }
 
-    .feedform{ 
-        
-        margin-left: 30px;
-       
-          
-         
-        } 
+  .movie-title h1{
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 30px;
+  }
 
+  .date-rating-duration{
+      display: flex;
+      margin-bottom: 10px;
+  }
+
+  .rating{
+      margin-left: 40px;
+  }
+
+  .director-star{
+      display: flex;
+      margin-bottom: 10px;
+  }
+
+  .star{
+      margin-left: 40px;
+  }
+
+  .genres{
+      display: flex;
+  }
+
+  .genre h4{
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    display:inline-block;
+    text-decoration: none;
+    border: 1px solid #6FC1C7;
+    border-radius: 15px;
+    padding: 6px 7px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .genre h4:hover {
+    border: 1px solid #6FC1C7;
+    background: #6fc1c77c;
+    transition: 1s;
 }
 
-/*Media Queries************************************************************/
-@media(max-width:800px){
-
-    .pick{
-        width: 350px;
-        display:block;
-        padding-right: 25px;
-    }
-
-    .pickoftheweek{
-        width: 250px;
-        display:block;
-        padding-right: 25px;
-        border-radius: 40px;
-    }
-
-    .swiper {
-        width: 475px;
-        left: 38.9%;
-        
-    }
-
-    .swiper-slide img {
-        width: 155px; 
-        height: 230px;
-        margin-left: 50px;
-        
-    }    
-    .swiper-slide {
-        padding-left: 25px;
-        padding-right: 25px;
-        
-    }
-
-    /*Genre Lists--------------------------------------------------*/
-
-    .pickimage li {
-        list-style: none;
-        padding: 2px;
-        margin-bottom: 20px;
-
-    }
-
-    .pickimage{
-        display: block;
-        flex-direction: column; 
-        padding-left: 35px;
-    }
-    
-    .pickimage li a{
-        text-decoration: none;
-        color:black;
-        transition: all 0.5s ease-in-out;
-        text-decoration: none;
-        border: 1px solid #6FC1C7;
-        border-radius: 15px;
-        padding: 4px 7px;
-        font-size: 15px;
-        background: transparent;
-        position: relative;
-    }
-    
-    .pickimage li a:hover {
-        border: 1px solid #6FC1C7;
-        background: #6FC1C7;
-        transition: 1s;
-    }
-
-    .feedform{ 
-        width: 350px;
-        margin-left: 10px;
-       
-          
-         
-        } 
-
+.each-2{
+    padding: 90px;
 }
 
-/*Media Queries************************************************************/
-@media(max-width:700px){
-
-    .pick{
-        width: 250px;
-        display:block;
-        padding-right: 25px;
-    }
-
-    .pickoftheweek{
-        width: 250px;
-        padding-right: 25px;
-        border-radius: 40px;
-    }
-
-    .swiper {
-        width: 475px;
-        left: 38.9%;
-        
-    }
-
-    .swiper-slide img {
-        width: 155px; 
-        height: 230px;
-        margin-left: 50px;
-        
-    }    
-    .swiper-slide {
-        padding-left: 25px;
-        padding-right: 25px;
-        
-    }
-
-    /*Genre Lists--------------------------------------------------*/
-
-    .pickimage li {
-        list-style: none;
-        padding: 2px;
-        margin-bottom: 20px;
-        padding-right: 50px;
-
-    }
-
-    .pickimage{
-        display: block;
-        flex-direction: column; 
-        padding-left: 1px;
-        
-    }
-    
-    .pickimage li a{
-        text-decoration: none;
-        color:black;
-        transition: all 0.5s ease-in-out;
-        text-decoration: none;
-        border: 1px solid #6FC1C7;
-        border-radius: 15px;
-        padding: 4px 7px;
-        font-size: 15px;
-        background: transparent;
-        position: relative;
-    }
-    
-    .pickimage li a:hover {
-        border: 1px solid #6FC1C7;
-        background: #6FC1C7;
-        transition: 1s;
-    }
-
-    .feedform{ 
-        width: 250px;
-        margin-left: 10px;
-        } 
-        
-    .textarea{
-        width: 180px;
-        
-    }
-
+.description-label{
+    color: rgba(255, 255, 255, 0.801);
 }
 
-/*Media Queries************************************************************/
-@media(max-width:600px){
-
-    .pick{
-        width: 450px;
-        padding-right: 25px;
-    }
-
-    .pickoftheweek{
-        width: 450px;
-        display:block;
-        padding-right: 25px;
-    }
-
-    .swiper {
-        width: 475px;
-        left: 38.9%;
-        
-    }
-
-    .swiper-slide img {
-        width: 155px; 
-        height: 230px;
-        margin-left: 50px;
-        
-    }    
-    .swiper-slide {
-        padding-left: 25px;
-        padding-right: 25px;
-        
-    }
-
-    /*Genre Lists--------------------------------------------------*/
-
-    .pickimage li {
-        list-style: none;
-        padding: 2px;
-        margin-bottom: 20px;
-
-    }
-
-    .pickimage{
-        display: block;
-        flex-direction: column; 
-        padding-left: 55px;
-    }
-    
-    .pickimage li a{
-        text-decoration: none;
-        color:black;
-        transition: all 0.5s ease-in-out;
-        text-decoration: none;
-        border: 1px solid #6FC1C7;
-        border-radius: 15px;
-        padding: 4px 7px;
-        font-size: 15px;
-        background: transparent;
-        position: relative;
-    }
-    
-    .pickimage li a:hover {
-        border: 1px solid #6FC1C7;
-        background: #6FC1C7;
-        transition: 1s;
-    }
-
-    .feedform{ 
-        
-        margin-left: 30px;
-       
-          
-         
-        } 
-
+.description-text{
+    color: rgba(255, 255, 255, 0.801);
 }
 
+/*-------------individual page-------------------------------------------*/
+.container-Avengers1{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/Avengers1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 
+.container-babysitterkillerqueen{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/the-babysitter-killer-queen.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 
+.container-container{
+    background-color: #0a0a0ab9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
