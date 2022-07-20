@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comedy</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,16 +14,15 @@
 </head>
 
 <body>
+
     <div class="container">
-
     <header>
+        <!--logo-------------------------------------------------------->
+        <div class="logo" >
 
-        <!---------------------Logo---------------------------------------------->
-        <div class="logo">
-
-            <a href="index.html" >  
-                <img src="premiumlogowhite/white.png" alt="websitelogo" width="210px" height="50px">
-            </a>
+          <a href="index.html" >  
+              <img src="premiumlogowhite/white.png" alt="websitelogo" width="210px" height="50px">
+          </a>
 
         </div>
 
@@ -43,92 +42,126 @@
     </header>
 
     <main>
-        
+  
         <!---------------------Pick of The Week---------------------------------------------->
         <section>
             <div class="pickoftheweek" >
-                <h3>Genre: Horror</h3>
+                <h3>Home</h3>
             </div>
 
             <div class="info-panel"> <h2>Trending This Week</h2></div>
 
             <div class="pick">
 
+            <!-----------------Pick Section--------------------------------->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                    <a href="" class="overlay">
-                        <strong class="overlaytext">Learn More...</strong>
-                    </a>
-                    <img src="Images/fear street 1.jpg" alt="" >
+                    <div class="swiper-slide">
+
+         <!-------------------------------------Beginning of Swiper  Slide---------------------------------------------------------->
+
+                        <div class="swiper-slide-image">
+                          <a href="fearstreet1994.html"><img src="Images/fear street 1.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Fear Street 1994</strong>
+                         <h5>Starring: Kiana Madeira</h5>
+                         <p>Playing 20 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="BabySitterKillerQueen.html"><img src="Images/Babysitter Killer Queen.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Babysitter Killer Queen</strong>
+                         <h5>Starring: Jenna Ortega</h5>
+                         <p>Playing 22 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="aquietplace.html"><img src="Images/a quiet place 2.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >A Quiet Place</strong>
+                         <h5>Starring: Emily Blunt</h5>
+                         <p>Playing 23 July 2022</p>
+                        </div>
+
+                     </div>
+
+                     <div class="swiper-slide">
+
+                        <div class="swiper-slide-image">
+                          <a href="fearstreet1978.html"><img src="Images/Fear Steer 2.jpg" alt="" ></a>
+                        </div>
+
+                        <div class="swiper-slide-text"> 
+                         <strong >Fear Street 1978</strong>
+                         <h5>Starring: Sadie Sink</h5>
+                         <p>Playing 29 July 2022</p>
+                        </div>
+
+                     </div>
+                     
+       <!---------------------------------------------End of Swiper Slide---------------------------------------------------------->
+ 
                 </div>
 
-                <div class="swiper-slide">
-                    <a href="" class="overlay">
-                        <strong class="overlaytext">Learn More...</strong>
-                    </a>
-                    <img src="Images/Fear Steer 2.jpg" alt="" >
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="" class="overlay">
-                        <strong class="overlaytext">Learn More...</strong>
-                    </a>
-                    <img src="Images/fear street 3.jpg" alt="" >
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="" class="overlay">
-                        <strong class="overlaytext">Learn More...</strong>
-                    </a>
-                    <img src="Images/texas chainsaw.jpg" alt="" >
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="" class="overlay">
-                        <strong class="overlaytext">Learn More...</strong>
-                    </a>
-                    <img src="Images/X.jpg" alt="" ></div>
-                
-                </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
               </div>
-          </div>
-        </section>
+
+            </div>
+ 
+        </section> 
+        
     </main>
 
-    <a class="storybtn" href="feedback.html">
-        Give Us Feedback
-    </a>
+       <a class="storybtn" href="feedback.html">
+           Give Us Feedback
+       </a>
 
     <footer>
         <p>All Rights Reserved</p>
     </footer>
+
+    
 </div>
 
-    <!---------------------JavaScript---------------------------------------------->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <!---------------------JavaScript---------------------------------------------->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        rewind: true,
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 5,
+     spaceBetween: 5,
+     rewind: true,
 
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-  
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
 
-      });
-    </script>
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+
+   });
+ </script>
 </body>
+
 </html>
