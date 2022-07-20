@@ -812,9 +812,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-holidayrush{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/holidayrush.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -825,9 +825,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-intrusion{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/intrusion.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -838,9 +838,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-ironman1{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/ironman1.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -851,9 +851,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-ironman2{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/ironman2.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -864,9 +864,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-ironman3{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/ironman3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -877,9 +877,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-letitsnow{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/letitsnow1.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -890,9 +890,9 @@ padding-left: 200px;
     margin: 0px;
 }
 
-.container-fearstreet{
+.container-little{
     background-color: #0a0a0a4f;
-    background-image: url(Wallpapers/fearstreet.jpg);
+    background-image: url(Wallpapers/little.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -902,6 +902,360 @@ padding-left: 200px;
     padding: 0px;
     margin: 0px;
 }
+
+.container-lostcity{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/lostcity.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-metallords{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/metallords.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-myspy{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/myspy.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-nightschool{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/nightschool.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-passengers{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/passengers.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-playingwithfire{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/playingwithfire.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container-rednotice{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/rednotice.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-spidermanH{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/spidermanH.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-spidermanFFH{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/spidermanFFH.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-superfly{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/superfly.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-tallgirl{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/tallgirl.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-tallgirl2{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/tallgirl2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thefallout{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thefallout.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-texaschainsawmassacre{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/texaschainsawmassacre.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thesleepover{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thesleepover.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thespywhodumpedme{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thespywhodumpedme.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thor{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thor.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorTDW{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorTDW.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorR{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorR.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorLT{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorLT.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-uncharted{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/uncharted.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-x{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/x.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-yesday{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/yesday.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorTDW{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorTDW.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorTDW{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorTDW.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorTDW{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorTDW.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-thorTDW{
+    background-color: #0a0a0a4f;
+    background-image: url(Wallpapers/thorTDW.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 
 .container-container{
     background-color: #0a0a0ab9;
