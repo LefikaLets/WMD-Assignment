@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/all.css">
 </head>
 
 <body>
@@ -31,15 +32,21 @@
 
         <nav>
             <!--Menu-------------------------------------------------------->
-            
-                <a href="index.html">Home</a>
-                <a href="movie_page.html">All Movies</a>
-                <a href="categories.html">By Genre</a>
-                <a href="latest.html">Latest</a>
-                <a href="upcoming.html">Upcoming</a>
-                <a href="contacts.html">Contact Us</a>
-                <a href="aboutus.html">About Us</a>
-            
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="movie_page.html">All Movies</a></li>
+                      <li><a href="categories.html">By Genre</a></li>
+                      <li><a href="latest.html">Latest</a></li>
+                      <li><a href="upcoming.html">Upcoming</a></li>
+                      <li><a href="contacts.html">Contact Us</a></li>
+                      <li><a href="aboutus.html">About Us</a></li>
+                  </ul> 
+                </div> 
+  
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
 
     </header>
@@ -131,23 +138,57 @@
  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
  <script>
-   var swiper = new Swiper(".mySwiper", {
-     slidesPerView: 4,
-     spaceBetween: 2,
-     rewind: true,
-
-     pagination: {
-       el: ".swiper-pagination",
-       clickable: true,
-     },
-
-     navigation: {
-       nextEl: ".swiper-button-next",
-       prevEl: ".swiper-button-prev",
-     },
-
-   });
- </script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 5,
+      rewind: true,
+ 
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+ 
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+ 
+      breakpoints:{
+       300:{
+        slidesPerView: 1,
+        spaceBetween: 20,
+       },
+ 
+       420:{
+         slidesPerView: 3,
+      spaceBetween: 20,
+       },
+ 
+       768:{
+         slidesPerView: 4,
+      spaceBetween: 40,
+       },
+ 
+       1024:{
+         slidesPerView: 5,
+      spaceBetween: 5,
+       },
+ 
+      },
+ 
+    });
+ 
+    var navLinks = document.getElementById("navLinks");
+ 
+    function showMenu(){
+     navLinks.style.right = "0";
+    }
+ 
+    function hideMenu(){
+     navLinks.style.right = "-200px";
+    }
+ 
+  </script>
 </body>
 
 </html>

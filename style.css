@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #0a0a0a4f;
+    background-color: #0a0a0a;
     background-image: url(Images/Star-Wars-Tutorial.jpg);
     background-size: cover;
     background-position: center;
@@ -38,6 +38,12 @@ header{
     width: 100%;
     height: 60px;
     display:flex;
+}
+
+header img{
+    width: 210px;
+    height: 50px;
+    margin: 0;
 }
 
 main{
@@ -78,15 +84,52 @@ nav{
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 70px;
+    align-items: center;
 }
 
-nav a {
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    color: rgba(250, 246, 246, 0.966);
+    font-weight: 600;
+}
+
+.nav-links ul li a { 
+    text-decoration: none;
+    color: rgba(250, 246, 246, 0.966);
+    justify-content: space-between;
+    padding: 18px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(255, 166, 0, 0.700);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li :hover::after{
+    width: 20%;
+}
+
+/*nav a {
     padding: 18px;
     color: rgba(250, 246, 246, 0.966);
     margin-left: 15px;
     text-decoration: none;
     font-weight: 600;
-}
+}*/
 
 .info-panel{
     width: 80%;
@@ -105,7 +148,7 @@ nav a {
 
 section{
     width: 100%;
-    height: 560px;
+    height: 480px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -286,11 +329,20 @@ padding-left: 200px;
 
 /*Swiper----------------------*/
 
+
+.swiper-wrapper{
+    width: 100%;
+}
+
+.mySwiper{
+    margin: 0px;
+}
+
 .swiper {
     width: 100%;
     height: 330px;
     display: flex; 
-    
+    text-align: center;
   }
 
   .swiper-slide {
@@ -486,7 +538,7 @@ padding-left: 200px;
 
 .container-contactus{
     background-color: #0a0a0a;
-    background-image: url(Wallpapers/contactus.jpg);
+    background-image: url(Wallpapers/yodabackground.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1343,4 +1395,134 @@ padding-left: 200px;
       color: white;
       font-weight: 300;
       font-size: small;
+  }
+
+  nav .fa-solid{
+    display: none;
+  }
+
+  @media(max-width:700px){
+
+    .pick{
+        padding-top: 100px;
+        height: 350px;
+        margin: 0;
+    }
+
+    main{
+        height: 510px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 330px;
+        display: flex; 
+        text-align: center;
+      }
+  
+
+    .swiper-slide-text{
+        margin-left: 85px;
+      } 
+
+    .storybtn{
+        padding: 3px 34px;
+        margin-left: 90px;
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    .info-panel{
+        margin-top: 30px;
+        padding: 1px;
+    }
+
+    .info-panel h2{
+        font-size: 15px;
+        margin-top: 3px;
+        margin-left: 20px;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links ul li a{
+        display: block;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    nav{
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #373434cb;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        border-radius: 6px;
+        transition: 1s;
+
+    }
+
+    nav .fa-solid{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+
+    nav .fa-bars{
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+
+    .nav-links ul{
+        padding: 3px;
+    }  
+
+    .pickcategory{
+        padding: 5px;
+        display: block;
+        align-items: center;
+        padding-left: 5px;
+        text-align: center;
+        }
+        
+        .pickcategory li {
+            list-style: none;
+            padding: 10px;
+            margin-left: 115px; 
+            
+        }
+        
+        .pickcategory li a{
+            color: rgba(255, 255, 255, 0.801);
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            display:block;
+            text-decoration: none;
+            border: 1px solid #6FC1C7;
+            border-radius: 15px;
+            padding: 3px 40px;
+            font-size: 12px;
+            background: transparent;
+            position: relative;
+        
+        }
+  
   }
